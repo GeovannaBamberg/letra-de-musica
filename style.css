@@ -55,10 +55,10 @@ article{
     
 }
 #hihigh{
-    background-image: url(/letraDeMusica/assets/img/bg_hihigh.jfif);
+    background-image: url(assets/img/bg_hihigh.jfif);
 }
 #soWhat{
-    background-image: url(/letraDeMusica/assets/img/bg_sowhat.png); 
+    background-image: url(assets/img/bg_sowhat.png); 
     background-position: center top;
 }
 #letraHiHigh{
