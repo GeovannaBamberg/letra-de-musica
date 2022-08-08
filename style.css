@@ -1,9 +1,13 @@
 @charset "UTF-8";
 :root{
-    /* Cor dos backgrounds */
-    --corPrincipal: #ffffff;
-    --corSegundaria: #000000;
-    /* Cor das fontes*/
+    /* Cor dos backgrounds e Cor das fontes*/
+    --corPrincipal: #fbf4ff;
+    --corSegundaria: #20162b;
+    --corBgLetras: #20162b6f;
+    /* Fontes */
+    --fonteTituloH1: normal bold 3em 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --fonteSubTitulos: normal bold 2em 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --fonteParagrafos: normal lighter 1em 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 *{
     margin: 0px;
@@ -19,27 +23,23 @@ header{
     padding: 40px;
 }
 header h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 3em;
-    font-style: normal;
-    font-weight: bold;
+    font: var(--fonteTituloH1);
 
 }
 header h2{
-    font-size: 1em;
+    font: var(--fonteSubTitulos)
 }
 a{
     text-decoration: none;
     color: var(--corPrincipal);
 }
 a:hover{
-    color: aquamarine;
+    color: rgb(78, 15, 107);
     text-decoration: underline;
 }
 main{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-indent: 5px;
-    margin: 10px 0px 10px 0px;
+    margin: 1px 0px 0px 0px;
 }
 article{
     background-color:var(--corPrincipal);
@@ -51,39 +51,43 @@ article{
     width: 100%;
     max-width: 100%;
     position: obsolute; 
-    background-position: center center;
-    
+    background-position: center bottom;
 }
 #hihigh{
-    background-image: url(assets/img/bg_hihigh.jfif);
+    background-image: url(assets/img/bg_hihigh.gif);
+    background-position: center center;
+}
+#butterfly{
+    background-image: url(/assets/img/bg_butterfly.gif);
+    background-position: center center;
 }
 #soWhat{
-    background-image: url(assets/img/bg_sowhat.png); 
-    background-position: center top;
+    background-image: url(assets/img/bg_sowhat.webp); 
+    background-position: center center;
 }
-#letraHiHigh{
-    background-color: #ffffffed;
+#whynot{
+    background-image: url(/assets/img/bg_whyNot.webp);
 }
-#letraSoWhat{
-    background-color: #0c0b0eb4;
-    color: var(--corPrincipal);
-}
+
 .tituloDaMusica{
     font-size: 2.5em;
     background-color: var(--corSegundaria);
     color: var(--corPrincipal);
     margin: 0px;
     padding-left: 25px;
+    font: var(--fonteSubTitulos)
     
 }
 .letra{
     background-color: var(--corPrincipal);
     margin: 0px 25px 0px 0px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font: var(--fonteParagrafos);
     padding: 15px;
     width: 450px;
     max-width: 950px;
     min-width: 150px;
+    background-color: var(--corBgLetras);
+    color: var(--corPrincipal);
 }
 .letra p{
     margin: 20px 20px 0px 20px;
