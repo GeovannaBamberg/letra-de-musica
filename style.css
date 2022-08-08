@@ -58,7 +58,7 @@ article{
     background-position: center center;
 }
 #butterfly{
-    background-image: url(/assets/img/bg_butterfly.gif);
+    background-image: url(assets/img/bg_butterfly.gif);
     background-position: center center;
 }
 #soWhat{
@@ -66,7 +66,7 @@ article{
     background-position: center center;
 }
 #whynot{
-    background-image: url(/assets/img/bg_whyNot.webp);
+    background-image: url(assets/img/bg_whyNot.webp);
 }
 
 .tituloDaMusica{
