@@ -4,6 +4,7 @@
     --corPrincipal: #fbf4ff;
     --corSegundaria: #20162b;
     --corBgLetras: #20162b6f;
+    --CorLinks: #4e0f6b;
     /* Fontes */
     --fonteTituloH1: normal bold 3em 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --fonteSubTitulos: normal bold 2em 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -35,7 +36,7 @@ a{
     color: var(--corPrincipal);
 }
 a:hover{
-    color: rgb(78, 15, 107);
+    color: var(--CorLinks);
     text-decoration: underline;
 }
 main{
@@ -68,8 +69,12 @@ article{
 }
 #whynot{
     background-image: url(assets/img/bg_whyNot.webp);
+    background-position: center center;
 }
-
+#ptt{
+    background-image: url(assets/img/bg_ptt.gif);
+    background-position: center center;
+}
 .tituloDaMusica{
     background-color: var(--corSegundaria);
     color: var(--corPrincipal);
