@@ -7,6 +7,7 @@
     --CorLinks: #4e0f6b;
     /* Fontes */
     --fonteTituloH1: normal bold 3em 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --fonteH2: normal lighter 1.2em 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --fonteSubTitulos: normal bold 2em 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --fonteParagrafos: normal lighter 1em 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -29,15 +30,20 @@ header h1{
 
 }
 header h2{
-    font: var(--fonteSubTitulos)
+    font: var(--fonteH2);
 }
 a{
     text-decoration: none;
     color: var(--corPrincipal);
+    
+}
+header h2 a{
+    text-decoration: underline;
 }
 a:hover{
     color: var(--CorLinks);
     text-decoration: underline;
+    
 }
 main{
     text-indent: 5px;
