@@ -59,11 +59,10 @@ article{
     width: 100%;
     max-width: 100%;
     position: obsolute; 
-    background-position: center bottom;
 }
 #hihigh{
     background-image: url(assets/img/bg_hihigh.gif);
-    background-position: center center;
+    background-position: center top;
 }
 #butterfly{
     background-image: url(assets/img/bg_butterfly.gif);
@@ -71,7 +70,7 @@ article{
 }
 #soWhat{
     background-image: url(assets/img/bg_sowhat.webp); 
-    background-position: center center;
+    background-position: right center;
 }
 #whynot{
     background-image: url(assets/img/bg_whyNot.webp);
@@ -105,8 +104,9 @@ article{
 }
 footer{
     background-color: var(--corSegundaria);
-    color:var(--corPrincipal) ;
+    color:var(--corPrincipal);
     padding: 50px;
+    font: var(--fonteParagrafos);
     text-align: center;
     font-size: 1em;
     margin: 0px;
